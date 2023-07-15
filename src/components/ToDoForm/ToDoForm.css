@@ -1,0 +1,34 @@
+.todo_form{
+    width: 50%;
+    padding: 20px;
+    background-color: #C2AFF0;
+    border-radius: 20px;
+}
+
+.todo_form_task{
+    width: 90%;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+.btn{
+    background: #9191E9;
+    border: none;
+    border-radius: 20px;
+    font-size: 32px;
+}
+
+.todo_form_add_btn{
+    width: 80%;
+    height: calc(100vh * .05);
+}
+
+@media (max-width: 1080px) {
+    .btn{
+        font-size: 16px;
+    }
+
+    .todo_form{
+        width: 80%;
+    }
+}

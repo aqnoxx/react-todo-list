@@ -1,0 +1,40 @@
+.todo_list{
+    width: 50%;
+    min-height: calc(100vh * .05);
+    margin-top: 1%;
+    padding: 20px;
+    transition: ease-in-out .5s;
+    background-color: #C2AFF0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list_checkbox{
+    width: 80%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_deltask_btn{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media (max-width: 1080px) {
+    .list_deltask_btn{
+        font-size: 16px;
+    }
+
+    .list_checkbox{
+        font-size: 16px;
+    }
+    
+    .todo_list{
+        width: 80%;
+    }
+}
